@@ -11,3 +11,7 @@ def index(request):
 
 def home(request):
     return HttpResponse('home')
+
+
+def new(request):
+    return HttpResponse('new')
